@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 5% 45%;
+}
+.pura{
+    background-color: salmon;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+.pura .btn{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    height: 200px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(249, 115, 100);
+}
+.full{
+    height: 170px;
+    width: 150px;
+    display: none;
+}
+.full ul li a{
+    color: wheat;
+    text-align: center;
+    padding: 0px;
+    text-decoration: none;
+}
+.full ul li:hover{
+    background-color: rgb(249, 115, 100);
+}
+.full ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+}
+ /* drop down jquery end */

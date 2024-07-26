@@ -1,0 +1,10 @@
+$('document').ready(function(){
+    $('.pura').mouseleave(function(){
+        $('.full').slideUp(600);
+    });
+});
+$('document').ready(function(){
+    $('.pura').mouseenter(function(){
+        $('.full').slideDown(600);
+    });
+});
